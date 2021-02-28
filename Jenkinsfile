@@ -21,7 +21,7 @@ pipeline {
             steps {
                 echo 'Clonning Repository'
 
-                git url: 'https://github.com/frontalnh/temp.git',
+                git url: 'https://github.com/JasonJo85/test.git',
                     branch: 'master',
                     credentialsId: 'jenkinsgit'
             }
