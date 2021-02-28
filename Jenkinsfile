@@ -23,7 +23,7 @@ pipeline {
 
                 git url: 'https://github.com/JasonJo85/test.git',
                     branch: 'master',
-                    credentialsId: 'jenkinsgit'
+                    credentialsId: 'gittest'
             }
 
             post {
